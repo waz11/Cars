@@ -1,0 +1,23 @@
+.table {
+  tbody tr:hover {
+    background-color: gray;
+  }
+
+  tbody.loading {
+    opacity: 0.3;
+  }
+
+  th {
+    min-width: 30px;
+    border: 1px solid;
+  }
+
+  td {
+    min-width: 98px;
+  }
+
+  .saved {
+    background: #f08080;
+    opacity: 0.5;
+  }
+}

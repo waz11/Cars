@@ -1,0 +1,21 @@
+.cars-page {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  // align-items: center;
+  // text-align: center;
+
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  .filters-section {
+    display: flex;
+    gap: 10px;
+  }
+
+  .cars-table {
+    width: 766px;
+  }
+}
